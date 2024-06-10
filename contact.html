@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forest Group - Najpiękniejszy park w twojej okolicy</title>
+    <link rel="stylesheet" href="./dist/css/main.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <nav class="nav nav-desktop">
+    <div class="nav-desktop-logo">
+        <img src="./dist/img/tree.icon.png" alt="Ikona drzewa iglastego repreznutjąca logo firmy">
+        <a href="./index.html">Forest</a>
+    </div>
+    <div class="nav-desktop-links">
+        <a href="./index.html">Home</a>
+        <a href="./index.html#about-us">O nas</a>
+        <a href="./index.html#offer">Oferta</a>
+        <a href="./contact.html">Kontakt</a>
+    </div>
+</nav>
+
+<button class="burger-btn">
+    <div class="burger-btn-box">
+        <div class="burger-btn-bars"><svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24"
+                fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"
+                class="icon icon-tabler icons-tabler-outline icon-tabler-menu-2">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                <path d="M4 6l16 0" />
+                <path d="M4 12l16 0" />
+                <path d="M4 18l16 0" />
+            </svg></div>
+            <div class="burger-btn-close"><svg  xmlns="http://www.w3.org/2000/svg"  width="32"  height="32"  viewBox="0 0 24 24"  fill="none"  stroke="currentColor"  stroke-width="1.7"  stroke-linecap="round"  stroke-linejoin="round"  class="icon icon-tabler icons-tabler-outline icon-tabler-x"><path stroke="none" d="M0 0h24v24H0z" fill="none"/><path d="M18 6l-12 12" /><path d="M6 6l12 12" /></svg></div>
+    </div>
+</button>
+
+<nav class="nav nav-mobile">
+    <div class="nav-mobile-logo">
+        <img src="./dist/img/tree.icon.png" alt="Ikona drzewa iglastego repreznutjąca logo firmy">
+        <a href="./index.html">Forest</a>
+    </div>
+    <div class="nav-mobile-links">
+        <a href="./index.html">Home</a>
+        <a href="./index.html#about-us">O nas</a>
+        <a href="./index.html#offer">Oferta</a>
+        <a href="./contact.html">Kontakt</a>
+    </div>
+</nav>    <div class="hero-img">
+    <div class="hero-bg"></div>
+    <div class="hero-text">
+        <p class="hero-text-company-name">Forest Group</p>
+        <h1 class="hero-text-title">Najpiękniejszy park w twojej okolicy!</h1>
+    </div>
+</div>    <section id="contact" class="contact">
+        <div class="contact-form">
+            <h2 class="contact-title">SKONTAKTUJ SIĘ Z NAMI!</h2>
+            <div class="contact-form-box">
+                <label for="fname">Imię:</label>
+                <input type="text" name="fname">
+            </div>
+            <div class="contact-form-box">
+                <label for="lname">Nazwisko:</label>
+                <input type="text" name="lname">
+            </div>
+            <div class="contact-form-box">
+                <label for="email">E-mail:</label>
+                <input type="text" name="email">
+            </div>
+            <div class="contact-form-box">
+                <label for="msg">Wiadomość:</label>
+                <textarea id="msg" cols="30" rows="10"></textarea>
+            </div>
+            <button type="submit" class="contact-form-btn">Wyślij</button>
+        </div>
+        <div class="contact-map-box">
+            <div class="contact-details">
+                <h3 class="contact-details-title">DANE KONTAKTOWE:</h3>
+                <ul class="contact-details-list">
+                    <li>kontakt@forestgroup.pl</li>
+                    <li>+48 123 456 789</li>
+                    <li>00-000 Kraków, ul. Jasnogórska 2</li>
+                </ul>
+            </div>
+            <div class="google-map">
+                <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2559.8469391237086!2d19.892171476607224!3d50.08915251331219!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47165a326d015c3b%3A0x47a12cd367a1f34e!2sRestauracja%20McDonald&#39;s!5e0!3m2!1spl!2spl!4v1717776405185!5m2!1spl!2spl"
+                    style="border:0;" allowfullscreen="" loading="lazy"
+                    referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+
+    <footer class="footer">
+    <div class="footer-box">
+        <div class="footer-logo">
+            <img src="./dist/img/tree.icon.png" alt="Ikona drzewa iglastego repreznutjąca logo firmy">
+            <a href="./index.html">Forest</a>
+        </div>
+        <div class="footer-cards">
+            <div class="footer-card">
+                <h4 class="footer-card-title">O nas</h4>
+                <ul class="footer-card-links">
+                    <li class="footer-card-link"><a href="">Historia</a></li>
+                    <li class="footer-card-link"><a href="">Parki</a></li>
+                    <li class="footer-card-link"><a href="">Opinie</a></li>
+                </ul>
+            </div>
+            <div class="footer-card">
+                <h4 class="footer-card-title">Nasza firma</h4>
+                <ul class="footer-card-links">
+                    <li class="footer-card-link"><a href="">Praca</a></li>
+                    <li class="footer-card-link"><a href="">Kadry</a></li>
+                    <li class="footer-card-link"><a href="">Zarząd</a></li>
+                </ul>
+            </div>
+            <div class="footer-card">
+                <h4 class="footer-card-title">Dokumenty</h4>
+                <ul class="footer-card-links">
+                    <li class="footer-card-link"><a href="">Wnioski</a></li>
+                    <li class="footer-card-link"><a href="">Rezerwacje</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <p class="footer-copyright">&copy;<span class="footer-year"> </span> Forest Group Company Ltd.</p>
+</footer>    <script src="./dist/js/main.min.js"></script>
+</body>
+
+</html>
